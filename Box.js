@@ -9,17 +9,16 @@ const styles = StyleSheet.create(
         },
         text: {
             fontSize: 24,
-            fontWeight: "Bold",
-            textAlign: "Center",
+            fontWeight: "bold",
+            textAlign: "center",
             color: "white"
         },
-    }
-);
+    });
 
 export default function Box({ children, style }) {
 
     return (
-        <View style={[styles.Box, style]}>
+        <View style={[styles.box, style]}>
             <Text style={styles.text}>{children}</Text>
         </View>
     )
