@@ -11,7 +11,8 @@ const styles = StyleSheet.create({
     borderWidth: 6,
     borderColor: "red",
     flex: 1,
-    flexDirection: "row"
+    flexDirection: "row",
+    justifyContent: "space-around"
   }
 })
 
@@ -24,9 +25,9 @@ export default function App() {
     <View style={styles.container} >
 
 
-      <Box style={{ backgroundColor: "#147904", flex: 1 }}> Box 1</Box>
+      <Box style={{ backgroundColor: "#147904" }}> Box 1</Box>
       <Box style={{ backgroundColor: "#012345" }}> Box 2</Box>
-      <Box style={{ backgroundColor: "#543210", flex: 1 }}> Box 3</Box>
+      <Box style={{ backgroundColor: "#543210" }}> Box 3</Box>
 
 
 
