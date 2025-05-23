@@ -26,7 +26,7 @@ export default function App() {
     <View style={styles.container} >
 
 
-      <Box style={{ backgroundColor: "#147904", paddingVertical: 100 }}> Box 1</Box>
+      <Box style={{ backgroundColor: "#147904", paddingVertical: 400 }}> Box 1</Box>
       <Box style={{ backgroundColor: "#012345" }}> Box 2</Box>
       <Box style={{ backgroundColor: "#543210" }}> Box 3</Box>
 
